@@ -1,239 +1,167 @@
-# Awesome-Search-Engine-Optimization-SEO
+# Awesome Search Engine Optimization (SEO) & AI Search Tools
 
-## Top Search Engine Optimization (SEO) Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Tracked Tools](https://img.shields.io/badge/Tools-SaaS%20%26%20Open%20Source-blue.svg)](https://github.com/ishandutta2007/Awesome-Search-Engine-Optimization-SEO)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Search-Engine-Optimization-SEO/pulls)
 
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Technical Audits, Keyword Research & AI Search Visibility (GEO/AEO)*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Search Engine Optimization (SEO)**. These tools enable marketers, developers, and site owners to audit technical health, research keywords, track rankings, and optimize content for both traditional search engines and emerging AI-powered answer engines.
-
-
-
-**Examples** include Shopify SEO Tools, Semrush, Ahrefs, Moz Pro, Yoast SEO, Screaming Frog, BrightEdge, Conductor, SE Ranking, and Booster SEO (the category leaders).
-
-
-
-**Open-source emphasis**: SEO is a domain where open-source tooling is **surprisingly robust and actively evolving**. **CrawlObserver** provides a free, self-hosted technical crawler extracting 45+ signals per page with a columnar database for fast queries . **Scrawly** offers a free desktop app running 250 checks (including GEO/AI search readiness) as a direct Screaming Frog alternative . **ZensInk** and **ranq** bundle keyword research, audits, and AI-visibility tracking into zero-dependency CLI tools . For rank tracking, **SerpTrail** provides a self-hosted solution with AI Overview citation monitoring . The gap remains in enterprise-scale keyword databases and backlink indexes, which commercial platforms (Ahrefs, Semrush) still dominate.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Shopify SEO Tools](https://help.shopify.com/en/manual/promoting-marketing/seo)**  
-
-  Native SEO controls within Shopify admin for product/page titles, meta descriptions, URL handles, and structured data; supplemented by app ecosystem for advanced audits and content optimization.
-
-
-
-- **[Semrush](https://www.semrush.com/)**  
-
-  Comprehensive SEO suite with keyword research (massive database), competitive analysis, backlink audit, site audit crawler, and position tracking.
-
-
-
-- **[Ahrefs](https://ahrefs.com/)**  
-
-  Industry-leading backlink index and keyword research platform; Site Audit crawler, Rank Tracker, and Content Explorer for finding link opportunities and content gaps.
-
-
-
-- **[Moz Pro](https://moz.com/)**  
-
-  SEO toolset with Domain Authority metric, keyword research, link building, and site audits; strong for local SEO and brand monitoring.
-
-
-
-- **[Yoast SEO](https://yoast.com/)**  
-
-  WordPress plugin for on-page SEO optimization, readability analysis, XML sitemaps, and schema markup; widely adopted for its content analysis and scoring.
-
-
-
-- **[Screaming Frog](https://www.screamingfrog.co.uk/)**  
-
-  Desktop SEO crawler for technical audits; extracts titles, meta data, headers, canonicals, hreflang, and structured data; the industry standard for deep site crawls (free tier limited to 500 URLs).
-
-
-
-- **[BrightEdge](https://www.brightedge.com/)**  
-
-  Enterprise SEO and content performance platform with AI-powered recommendations, competitive intelligence, and integration with CMS platforms.
-
-
-
-- **[Conductor](https://www.conductor.com/)**  
-
-  Enterprise SEO platform focused on content intelligence, organic visibility tracking, and workflow automation for large marketing teams.
-
-
-
-- **[SE Ranking](https://seranking.com/)**  
-
-  All-in-one SEO platform with rank tracking, keyword research, site audits, and competitor analysis at mid-market pricing.
-
-
-
-- **[Booster SEO](https://boosterseo.com/)**  
-
-  Suite of SEO tools for backlinks, keyword research, and site audits; positioned for agencies and freelancers.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Technical SEO Crawlers & Site Audits
-
-
-
-- **[CrawlObserver](https://github.com/SEObserver/crawlobserver)**  
-
-  Free, open-source SEO crawler built by SEObserver; extracts **45+ SEO signals per page** (title, canonical, meta tags, headings, hreflang, Open Graph, schema.org, images, links, indexability), respects robots.txt, tracks redirect chains and response times, stores data in a columnar database for millisecond queries on millions of pages, computes PageRank and crawl depth, and includes a web UI, REST API, and native desktop app . **The most technically sophisticated open-source SEO crawler** for large-scale technical audits.
-
-
-
-- **[Scrawly (sentinelseo)](https://github.com/IliasSami/scrawly-seo-crawler)**  
-
-  Free desktop app (MIT) running **250 technical, GEO (Generative Engine Optimization), and agentic-web checks** on every page; maps site architecture, explains fixes in plain language, and can apply safe reversible fixes on WordPress . Includes JavaScript rendering, 3D site graph, crawl-to-crawl comparison, GSC/GA4 integration, and an MCP server. **A direct free alternative to Screaming Frog and Sitebulb** with explicit AI search readiness checks.
-
-
-
-- **[ranq](https://pypi.org/project/ranq/)**  
-
-  CLI SEO audit and AI-visibility toolkit; covers crawl audits, GEO checks (AI crawler access, llms.txt, entity/Wikidata, Common Crawl presence), and an **AI-visibility log tracker** for recording brand mentions across assistants . Obeys robots.txt, rate-limits per host, and includes a GitHub Action for CI-based audits .
-
-
-
-- **[pyseoa](https://pypi.org/project/pyseoa/)**  
-
-  Fast, extensible Python library/CLI for analyzing SEO health across URLs; checks titles, meta descriptions, headers, alt tags, canonicals, Open Graph, robots.txt, sitemap, structured data, and optional PageSpeed scores; exports JSON/CSV/HTML . **Lightweight and scriptable** for batch URL analysis.
-
-
-
-### Keyword Research & Content Optimization
-
-
-
-- **[ZensInk](https://pypi.org/project/zens-ink/)**  
-
-  SEO toolkit for indie builders (zero dependencies, pure Python); **13 CLI tools** covering keyword research (Google Autocomplete), clustering, difficulty scoring, search volume (Bing Webmaster), domain rating (Ahrefs free API), search intent classification, competitor gap analysis, and site/on-page audits . Works as an MCP server for AI agents. **The most complete open-source keyword workflow** without paid API subscriptions.
-
-
-
-### Rank Tracking & AI Visibility (GEO/AEO)
-
-
-
-- **[SerpTrail](https://github.com/serpapi/serptrail)**  
-
-  Self-hosted SEO and **GEO rank tracker** (Ruby on Rails + SQLite); tracks keyword positions across Google locations, preserves SERP snapshots, monitors **AI Overview citations**, and includes an AI chat assistant for querying historical data . Uses SerpApi (250 free searches/month) with Docker deployment. **The leading open-source rank tracker with AI search visibility**.
-
-
-
-- **[searchstack](https://pypi.org/project/searchstack/)**  
-
-  SEO/AEO/GEO reporting toolkit; aggregates GSC data, AI Overview visibility, AI chatbot citations (OpenAI, Perplexity, Anthropic, xAI), keyword gaps, and backlinks into a Markdown report . Supports local LLM testing (Ollama, LM Studio) for AEO checks without API costs.
-
-
-
-- **[seo-desk](https://pypi.org/project/seo-desk/)**  
-
-  Local-first SEO/GEO analytics platform (SQLite); tracks SEO keyword visibility, AEO (answer engine optimization) content structure, and **GEO (AI crawler access, llms.txt, AI model brand mentions)** with weekly/monthly trend history . Includes a claims scanner to detect false statements AI might repeat. Free (MIT) with optional paid API calls.
-
-
-
-### Platform-Specific Tools
-
-
-
-- **[Shopify SEO Expert](https://github.com/ArqamNisar/shopify-seo-expert)**  
-
-  Full-stack agentic system for Shopify; **Agent 1** runs a 14-point SEO audit on products (title, meta, URL, alt text, internal links, content depth), **Agent 2** uses an LLM to rewrite and optimize product copy, and a Blog Writer generates SEO articles . Connects directly to Shopify Admin API for one-click sync. **The most complete open-source Shopify SEO automation** available.
-
-
-
-- **[Shopify Schema Generator](https://github.com/jfiengo/ShopifyStructuredData)**  
-
-  Python tool for generating JSON-LD structured data for Shopify stores (Product, Organization, Breadcrumb, FAQ, Review schemas); integrates with review platforms (Yotpo, Judge.me, Stamped, Loox), validates against Google's requirements, and supports bulk processing via CLI, Web UI, or Python API . **Essential for structured data optimization** on Shopify.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **PyPrestaScan** — PrestaShop-specific SEO scanner with 20+ checks and automatic fix generation (meta, title, alt, canonical) with SQL export . **Niche but practical** for PrestaShop merchants.
-
-- **Brainwerk SEO Suite** — WordPress plugin with analytics, 404 logging, AI answer engine traffic tracking, and audit logging . **European-focused** WordPress SEO toolkit.
-
-
-
-**Frameworks for building custom systems**: Combine **CrawlObserver** for large-scale technical crawls, **Scrawly** for AI-search readiness audits, **ZensInk** for keyword research and content planning, and **SerpTrail** or **searchstack** for rank and AI visibility tracking in a fully self-hosted SEO stack. For Shopify, **Shopify SEO Expert** and **Shopify Schema Generator** provide platform-specific automation.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- SEO platforms handling site data and search performance must comply with applicable regulations and search engine guidelines; crawlers must respect robots.txt and rate limits.
-
-- **Open-source SEO is strong for technical audits and AI visibility**—CrawlObserver, Scrawly, and SerpTrail provide production-grade alternatives to commercial tools . However, **massive keyword databases and backlink indexes** (Ahrefs, Semrush) remain proprietary and are not replicated by open-source projects; ZensInk relies on free public APIs for volume and difficulty data .
-
-- Verify license terms for commercial use; CrawlObserver is open-source (Go) , Scrawly uses MIT , and SerpTrail is open-source (Rails) .
-
-
+> A curated directory of premier **Search Engine Optimization (SEO)** SaaS platforms, technical audit crawlers, rank trackers, and open-source tools—with special coverage of **Generative Engine Optimization (GEO)** and **Answer Engine Optimization (AEO)** for AI search visibility (ChatGPT, Perplexity, Google AI Overviews).
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS Platforms & Enterprise SEO Suites](#saas-platforms--enterprise-seo-suites)
+- [Open-Source SEO Tools & Frameworks](#open-source-seo-tools--frameworks)
+  - [Top Open-Source Projects (Ranked by GitHub Stars)](#top-open-source-projects-ranked-by-github-stars)
+  - [Specialized SEO Packages & CLI Utilities](#specialized-seo-packages--cli-utilities)
+- [Architecture & Frameworks for Custom SEO Stacks](#architecture--frameworks-for-custom-seo-stacks)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & License](#disclaimer--license)
 
-**Made for SEO specialists, technical marketers, content strategists, and web developers.**  
+---
 
-Let's make SEO more open, but with clear eyes about where commercial data moats still matter.
+## Sector Overview & Market Dynamics
+
+The global Search Engine Optimization (SEO) software and digital visibility market is estimated at **$81B–$85B in 2024**, projected to reach **$91B–$97B+ by 2026** (CAGR ~12.5%–13.6%), with accelerated growth in generative engine optimization (GEO) and AI search visibility intelligence.
+
+The sector is **highly fragmented and competitive**: broad suites (Semrush, Ahrefs, Moz) and enterprise platforms (BrightEdge, Conductor) compete against hundreds of specialized point solutions for rank tracking, technical crawls, and programmatic content optimization, preventing a single winner-take-all monopoly and fueling continuous innovation across both proprietary SaaS and community-driven open-source software.
+
+---
+
+## SaaS Platforms & Enterprise SEO Suites
+
+*Ranked in descending order by company size (valuation / market capitalization / annual revenue).*
+
+| Platform | Category / Focus | Company Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Shopify SEO Tools](https://help.shopify.com/en/manual/promoting-marketing/seo)** | E-Commerce CMS SEO & Native Structured Data | ~$213B Market Cap (~$11.6B ARR) | Included with Shopify plans (from $39/mo) | Free forever with Shopify store subscription; built-in native automated sitemaps, canonical tags, and basic meta editing |
+| **[Semrush](https://www.semrush.com/)** | All-in-One SEO Suite, Keyword Research & Audits | ~$2.05B Market Cap ($443.6M Revenue) | $139.95/mo (Pro plan; $117.33/mo billed annually) | Free forever tier with daily caps: 10 search reports per day, 1 project setup, and 10 tracked keywords |
+| **[Ahrefs](https://ahrefs.com/)** | Backlink Analysis, Keyword Explorer & Site Audits | ~$150M ARR (Bootstrapped Private) | $29/mo (Starter plan; Lite plan at $129/mo) | No free trial for paid plans; Free forever via Ahrefs Webmaster Tools (AWT) for verified domain owners (5,000 crawl credits/mo) |
+| **[BrightEdge](https://www.brightedge.com/)** | Enterprise SEO & AI Search Content Performance | ~$100M+ ARR (Private Enterprise) | ~$1,667/mo (Custom enterprise contracts, starting ~$20,000/yr) | No free forever plan; custom enterprise pilot / product demo available on sales consultation |
+| **[Conductor](https://www.conductor.com/)** | Enterprise Organic Visibility & Content Intelligence | ~$45M–$130M ARR (Private Enterprise) | ~$4,000/mo (Enterprise subscriptions, typically $48,000+/yr) | No free forever plan; tailored enterprise sales demonstration and limited guided trial on request |
+| **[Moz Pro](https://moz.com/)** | Domain Authority, Keyword Metrics & Link Audits | ~$40M–$50M ARR (Ziff Davis / Private) | $99/mo (Standard plan; $79/mo billed annually) | 7-day free trial on standard plans (up to 5 tracked campaigns and full tool access; credit card required) |
+| **[SE Ranking](https://seranking.com/)** | All-in-One SEO, Keyword Rank Tracking & Auditing | ~$35M–$38M ARR (Private) | $65/mo (Essential plan; $52/mo billed annually) | 14-day free trial (no credit card required, includes 750 tracked keywords, full competitor and site audit tools) |
+| **[Yoast SEO](https://yoast.com/)** | On-Page WordPress & Shopify SEO Plugin | ~$12M–$16.4M ARR (Newfold Digital) | $118.80/yr ($9.90/mo billed annually; Shopify app $19/mo) | Free forever WordPress plugin with full XML sitemaps, cornerstone content analysis, canonical controls, and schema markup |
+| **[Screaming Frog](https://www.screamingfrog.co.uk/)** | Technical Desktop SEO Website Crawler & Auditor | ~$5.9M–$7.4M Revenue (Private / Bootstrapped) | £199/yr (~$279/yr flat license, per user) | Free forever desktop edition capped at 500 URLs per crawl (no JS rendering, custom extraction, or scheduled automated crawls) |
+| **[Booster SEO](https://boosterseo.com/)** | E-Commerce SEO Automation & Image Optimization | Multi-Million ARR (Seedendo / Shopify App) | $39/mo (Pro plan; Premium plan at $69/mo) | Free forever tier for Shopify stores (covers basic automated ALT text tags, meta optimization, and weekly SEO health reports) |
+
+---
+
+## Open-Source SEO Tools & Frameworks
+
+### Top Open-Source Projects (Ranked by GitHub Stars)
+
+The following repositories represent the most popular, active open-source tools for technical site auditing, rank tracking, SERP analysis, and AI/GEO search optimization:
+
+1. **[every-app/open-seo](https://github.com/every-app/open-seo)** [![GitHub stars](https://img.shields.io/github/stars/every-app/open-seo?style=social&color=white)](https://github.com/every-app/open-seo/stargazers)  
+   Open-source full-stack alternative to Semrush and Ahrefs. Offers site auditing, backlink indexing workflows, keyword discovery, and rank tracking capabilities without recurring subscription lock-in.
+
+2. **[garmeeh/next-seo](https://github.com/garmeeh/next-seo)** [![GitHub stars](https://img.shields.io/github/stars/garmeeh/next-seo?style=social&color=white)](https://github.com/garmeeh/next-seo/stargazers)  
+   Plugin and component system for managing SEO, Open Graph tags, JSON-LD structured data, and meta tags natively within Next.js React web applications.
+
+3. **[goenning/google-indexing-script](https://github.com/goenning/google-indexing-script)** [![GitHub stars](https://img.shields.io/github/stars/goenning/google-indexing-script?style=social&color=white)](https://github.com/goenning/google-indexing-script/stargazers)  
+   Node.js script and automation utility utilizing the official Google Search Console Indexing API to trigger rapid indexing and re-crawling of web pages in less than 48 hours.
+
+4. **[artesaos/seotools](https://github.com/artesaos/seotools)** [![GitHub stars](https://img.shields.io/github/stars/artesaos/seotools?style=social&color=white)](https://github.com/artesaos/seotools/stargazers)  
+   Comprehensive SEO package for Laravel developers. Streamlines meta tags, Open Graph cards, Twitter cards, and JSON-LD schema generation in PHP web architectures.
+
+5. **[towfiqi/serpbear](https://github.com/towfiqi/serpbear)** [![GitHub stars](https://img.shields.io/github/stars/towfiqi/serpbear?style=social&color=white)](https://github.com/towfiqi/serpbear/stargazers)  
+   Self-hosted search engine rank tracker built with Node.js and Next.js. Tracks organic keyword positions across desktop and mobile SERPs, integrates with free scraping proxies or third-party APIs, and sends automated email ranking alerts.
+
+6. **[sethblack/python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer)** [![GitHub stars](https://img.shields.io/github/stars/sethblack/python-seo-analyzer?style=social&color=white)](https://github.com/sethblack/python-seo-analyzer/stargazers)  
+   Python-based CLI tool and library that crawls websites, analyzes DOM structure, calculates page-level word counts, and generates actionable warnings on technical SEO bugs.
+
+7. **[JustinBeckwith/linkinator](https://github.com/JustinBeckwith/linkinator)** [![GitHub stars](https://img.shields.io/github/stars/JustinBeckwith/linkinator?style=social&color=white)](https://github.com/JustinBeckwith/linkinator/stargazers)  
+   High-performance Node.js website crawler and broken link checker for CI/CD pipelines and technical audits. Crawls HTML trees, detects dead links, and validates redirect status codes.
+
+8. **[PhialsBasement/LibreCrawl](https://github.com/PhialsBasement/LibreCrawl)** [![GitHub stars](https://img.shields.io/github/stars/PhialsBasement/LibreCrawl?style=social&color=white)](https://github.com/PhialsBasement/LibreCrawl/stargazers)  
+   Free, open-source desktop SEO crawler designed as an alternative to Screaming Frog. Crawls websites, extracts on-page SEO tags, analyzes internal linking topologies, and exports structured CSV/JSON audit reports.
+
+9. **[janreges/siteone-crawler](https://github.com/janreges/siteone-crawler)** [![GitHub stars](https://img.shields.io/github/stars/janreges/siteone-crawler?style=social&color=white)](https://github.com/janreges/siteone-crawler/stargazers)  
+   Multi-threaded cross-platform website crawler written in PHP/CLI. Performs deep technical SEO audits, accessibility checks, security header inspections, and sitemap validations across Linux, macOS, and Windows.
+
+10. **[StJudeWasHere/seonaut](https://github.com/StJudeWasHere/seonaut)** [![GitHub stars](https://img.shields.io/github/stars/StJudeWasHere/seonaut?style=social&color=white)](https://github.com/StJudeWasHere/seonaut/stargazers)  
+    Self-hosted web-based SEO audit tool built in Go. Crawls target domains, flags technical indexing and on-page issues, inspects canonical tags, and visualizes site architecture in an intuitive dashboard.
+
+11. **[StanGirard/seo-audits-toolkit](https://github.com/StanGirard/seo-audits-toolkit)** [![GitHub stars](https://img.shields.io/github/stars/StanGirard/seo-audits-toolkit?style=social&color=white)](https://github.com/StanGirard/seo-audits-toolkit/stargazers)  
+    Automated SEO and security auditor integrating Google Lighthouse, security header inspection, XML sitemap extraction, image optimization tests, and LLM-assisted summaries.
+
+12. **[alexpospekhov/searchstack-aeo](https://github.com/alexpospekhov/searchstack-aeo)** [![GitHub stars](https://img.shields.io/github/stars/alexpospekhov/searchstack-aeo?style=social&color=white)](https://github.com/alexpospekhov/searchstack-aeo/stargazers)  
+    SEO/AEO/GEO reporting toolkit designed to aggregate Google Search Console data with AI Overview visibility and citations across OpenAI, Perplexity, Anthropic, and xAI chatbots. Supports local LLM evaluation (Ollama, LM Studio).
+
+13. **[ZensInk/zens-ink-seo-package](https://github.com/ZensInk/zens-ink-seo-package)** [![GitHub stars](https://img.shields.io/github/stars/ZensInk/zens-ink-seo-package?style=social&color=white)](https://github.com/ZensInk/zens-ink-seo-package/stargazers)  
+    Zero-dependency pure Python SEO toolkit for indie makers. Provides 13 CLI commands covering Google Autocomplete keyword discovery, clustering, search volume estimates, and search intent classification; functions as an MCP server for AI agents.
+
+14. **[serpapi/serptrail](https://github.com/serpapi/serptrail)** [![GitHub stars](https://img.shields.io/github/stars/serpapi/serptrail?style=social&color=white)](https://github.com/serpapi/serptrail/stargazers)  
+    Self-hosted SEO and GEO rank tracker (Ruby on Rails + SQLite + Docker). Tracks geo-targeted keyword rankings, stores full SERP snapshots, and tracks AI Overview brand citations.
+
+15. **[IliasSami/scrawly-seo-crawler](https://github.com/IliasSami/scrawly-seo-crawler)** [![GitHub stars](https://img.shields.io/github/stars/IliasSami/scrawly-seo-crawler?style=social&color=white)](https://github.com/IliasSami/scrawly-seo-crawler/stargazers)  
+    Open-source desktop app running 250+ technical SEO and GEO checks. Features JavaScript rendering, 3D site graphs, GSC/GA4 integrations, AI crawler accessibility audits, and an MCP server for LLM workflows.
+
+16. **[SEObserver/crawlobserver](https://github.com/SEObserver/crawlobserver)** [![GitHub stars](https://img.shields.io/github/stars/SEObserver/crawlobserver?style=social&color=white)](https://github.com/SEObserver/crawlobserver/stargazers)  
+    Industrial-grade open-source SEO crawler built in Go with a columnar database backend. Extracts 45+ SEO signals per page, calculates internal PageRank, traces redirect chains, and handles millions of URLs with millisecond query speeds.
+
+---
+
+### Specialized SEO Packages & CLI Utilities
+
+- **[Shopify SEO Expert](https://github.com/ArqamNisar/shopify-seo-expert)** [![GitHub stars](https://img.shields.io/github/stars/ArqamNisar/shopify-seo-expert?style=social&color=white)](https://github.com/ArqamNisar/shopify-seo-expert/stargazers) — Agentic automation system for Shopify stores; conducts 14-point product audits and generates AI-optimized copy synced via the Shopify Admin API.
+- **[Shopify Schema Generator](https://github.com/jfiengo/ShopifyStructuredData)** [![GitHub stars](https://img.shields.io/github/stars/jfiengo/ShopifyStructuredData?style=social&color=white)](https://github.com/jfiengo/ShopifyStructuredData/stargazers) — Python CLI and web tool generating schema.org JSON-LD structured data (Product, Organization, FAQ, Reviews) for e-commerce stores.
+- **[pyseoa](https://github.com/masem-at/pyseoa)** [![GitHub stars](https://img.shields.io/github/stars/masem-at/pyseoa?style=social&color=white)](https://github.com/masem-at/pyseoa/stargazers) — Lightweight, scriptable Python library for batch URL auditing, metadata validation, and PageSpeed evaluation.
+- **[seo-desk](https://github.com/aryachirag02/Seo-desk)** [![GitHub stars](https://img.shields.io/github/stars/aryachirag02/Seo-desk)](https://github.com/aryachirag02/Seo-desk/stargazers) — Local-first desktop SEO/AEO analytics tool (SQLite) tracking AI crawler permissions, `llms.txt` configurations, and AI model brand mentions.
+- **[PyPrestaScan](https://github.com/topics/prestashop-seo)** — Specialized PrestaShop audit script with 20+ automated technical checks and SQL fix exports.
+- **[Brainwerk SEO Suite](https://github.com/topics/wordpress-seo)** — Privacy-focused European WordPress SEO plugin with AI answer engine traffic logging and error auditing.
+
+---
+
+## Architecture & Frameworks for Custom SEO Stacks
+
+Building a fully independent, self-hosted SEO stack can be achieved by integrating modular open-source layers:
+
+```
+┌────────────────────────────────────────────────────────┐
+│           Presentation, Reporting & AI Agents          │
+│       searchstack-aeo  │  ZensInk (MCP)  │  Next-SEO   │
+└───────────────────────────┬────────────────────────────┘
+                            │
+┌───────────────────────────┴────────────────────────────┐
+│         Crawling, Technical Audits & Link Graph        │
+│    CrawlObserver (Go/Columnar)  │  LibreCrawl  │ Seonaut│
+└───────────────────────────┬────────────────────────────┘
+                            │
+┌───────────────────────────┴────────────────────────────┐
+│        SERP Tracking & AI Overview (GEO) Monitor       │
+│             SerpBear  │  SerpTrail (Rails)             │
+└────────────────────────────────────────────────────────┘
+```
+
+- **Large-Scale Technical Crawling:** Deploy **CrawlObserver** (Go + columnar storage) or **Seonaut** for high-throughput, low-latency URL audits and internal PageRank calculations.
+- **Desktop Deep Audits & GEO Checks:** Use **LibreCrawl** or **Scrawly** for interactive exploration of crawl trees, JavaScript rendering, and AI crawler readiness.
+- **SERP Rank Tracking:** Self-host **SerpBear** or **SerpTrail** with proxy scrapers or SerpApi to monitor keyword movements and AI Overview citations.
+- **Keyword Research & Agent Automation:** Leverage **ZensInk** CLI and MCP server for keyword clustering and competitor research without paid subscriptions.
+- **Rapid Indexing:** Execute **google-indexing-script** via GitHub Actions to submit newly published URLs directly to Google's Indexing API.
+
+---
+
+## How to Contribute
+
+Contributions to this ecosystem directory are warmly welcomed!
+
+1. **Fork** the repository on GitHub.
+2. **Add or update** entries in `README.md` following the established table or list format.
+3. Ensure entries include:
+   - Tool/repo name and authoritative link.
+   - For SaaS: starting tier price, free tier/trial limit, and company size estimate.
+   - For Open-Source: GitHub star badge formatted as `[![GitHub stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/owner/repo/stargazers)`.
+4. Open a **Pull Request** detailing your additions.
+
+---
+
+## Disclaimer & License
+
+- This repository is a community-curated directory provided for educational and technical reference. Listing does not imply commercial endorsement.
+- All crawlers and automated audit tools must respect `robots.txt`, adhere to search engine webmaster guidelines, and enforce responsible rate limiting.
+- Proprietary enterprise data moats (such as trillion-page backlink graphs from Ahrefs or multi-billion keyword databases from Semrush) remain distinct from self-hosted open-source crawlers.
+- Distributed under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) license.
