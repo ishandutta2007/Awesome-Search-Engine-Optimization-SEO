@@ -22,7 +22,7 @@
 - [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [💼 SaaS Platforms & Enterprise SEO Suites](#-saas-platforms--enterprise-seo-suites)
 - [🛠️ Open-Source SEO Tools & Frameworks](#️-open-source-seo-tools--frameworks)
-  - [⭐ Top Open-Source Projects (Ranked by GitHub Stars)](#-top-open-source-projects-ranked-by-github-stars)
+  - [⭐ Top Open-Source Projects (Ranked by GitHub_Stars)](#-top-open-source-projects-ranked-by-github-stars)
   - [📦 Specialized SEO Packages & CLI Utilities](#-specialized-seo-packages--cli-utilities)
 - [🏗️ Architecture & Frameworks for Custom SEO Stacks](#️-architecture--frameworks-for-custom-seo-stacks)
 - [🤝 How to Contribute](#-how-to-contribute)
@@ -61,66 +61,66 @@ The sector is **highly fragmented and competitive**: broad suites (Semrush, Ahre
 
 ## 🛠️ Open-Source SEO Tools & Frameworks
 
-### ⭐ Top Open-Source Projects (Ranked by GitHub Stars)
+### ⭐ Top Open-Source Projects (Ranked by GitHub_Stars)
 
 The following repositories represent the most popular, active open-source tools for technical site auditing, rank tracking, SERP analysis, and AI/GEO search optimization:
 
-1. **[every-app/open-seo](https://github.com/every-app/open-seo)** [![GitHub stars](https://img.shields.io/github/stars/every-app/open-seo?style=social&color=white)](https://github.com/every-app/open-seo/stargazers)  
+1. **[every-app/open-seo](https://github.com/every-app/open-seo)** [![GitHub_Stars](https://img.shields.io/github/stars/every-app/open-seo?style=social&color=white)](https://github.com/every-app/open-seo/stargazers)  
    Open-source full-stack alternative to Semrush and Ahrefs. Offers site auditing, backlink indexing workflows, keyword discovery, and rank tracking capabilities without recurring subscription lock-in. 🔓
 
-2. **[garmeeh/next-seo](https://github.com/garmeeh/next-seo)** [![GitHub stars](https://img.shields.io/github/stars/garmeeh/next-seo?style=social&color=white)](https://github.com/garmeeh/next-seo/stargazers)  
+2. **[garmeeh/next-seo](https://github.com/garmeeh/next-seo)** [![GitHub_Stars](https://img.shields.io/github/stars/garmeeh/next-seo?style=social&color=white)](https://github.com/garmeeh/next-seo/stargazers)  
    Plugin and component system for managing SEO, Open Graph tags, JSON-LD structured data, and meta tags natively within Next.js React web applications. ⚛️
 
-3. **[goenning/google-indexing-script](https://github.com/goenning/google-indexing-script)** [![GitHub stars](https://img.shields.io/github/stars/goenning/google-indexing-script?style=social&color=white)](https://github.com/goenning/google-indexing-script/stargazers)  
+3. **[goenning/google-indexing-script](https://github.com/goenning/google-indexing-script)** [![GitHub_Stars](https://img.shields.io/github/stars/goenning/google-indexing-script?style=social&color=white)](https://github.com/goenning/google-indexing-script/stargazers)  
    Node.js script and automation utility utilizing the official Google Search Console Indexing API to trigger rapid indexing and re-crawling of web pages in less than 48 hours. ⚡
 
-4. **[artesaos/seotools](https://github.com/artesaos/seotools)** [![GitHub stars](https://img.shields.io/github/stars/artesaos/seotools?style=social&color=white)](https://github.com/artesaos/seotools/stargazers)  
+4. **[artesaos/seotools](https://github.com/artesaos/seotools)** [![GitHub_Stars](https://img.shields.io/github/stars/artesaos/seotools?style=social&color=white)](https://github.com/artesaos/seotools/stargazers)  
    Comprehensive SEO package for Laravel developers. Streamlines meta tags, Open Graph cards, Twitter cards, and JSON-LD schema generation in PHP web architectures. 🐘
 
-5. **[towfiqi/serpbear](https://github.com/towfiqi/serpbear)** [![GitHub stars](https://img.shields.io/github/stars/towfiqi/serpbear?style=social&color=white)](https://github.com/towfiqi/serpbear/stargazers)  
+5. **[towfiqi/serpbear](https://github.com/towfiqi/serpbear)** [![GitHub_Stars](https://img.shields.io/github/stars/towfiqi/serpbear?style=social&color=white)](https://github.com/towfiqi/serpbear/stargazers)  
    Self-hosted search engine rank tracker built with Node.js and Next.js. Tracks organic keyword positions across desktop and mobile SERPs, integrates with free scraping proxies or third-party APIs, and sends automated email ranking alerts. 🐻
 
-6. **[sethblack/python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer)** [![GitHub stars](https://img.shields.io/github/stars/sethblack/python-seo-analyzer?style=social&color=white)](https://github.com/sethblack/python-seo-analyzer/stargazers)  
+6. **[sethblack/python-seo-analyzer](https://github.com/sethblack/python-seo-analyzer)** [![GitHub_Stars](https://img.shields.io/github/stars/sethblack/python-seo-analyzer?style=social&color=white)](https://github.com/sethblack/python-seo-analyzer/stargazers)  
    Python-based CLI tool and library that crawls websites, analyzes DOM structure, calculates page-level word counts, and generates actionable warnings on technical SEO bugs. 🐍
 
-7. **[JustinBeckwith/linkinator](https://github.com/JustinBeckwith/linkinator)** [![GitHub stars](https://img.shields.io/github/stars/JustinBeckwith/linkinator?style=social&color=white)](https://github.com/JustinBeckwith/linkinator/stargazers)  
+7. **[JustinBeckwith/linkinator](https://github.com/JustinBeckwith/linkinator)** [![GitHub_Stars](https://img.shields.io/github/stars/JustinBeckwith/linkinator?style=social&color=white)](https://github.com/JustinBeckwith/linkinator/stargazers)  
    High-performance Node.js website crawler and broken link checker for CI/CD pipelines and technical audits. Crawls HTML trees, detects dead links, and validates redirect status codes. 🔗
 
-8. **[PhialsBasement/LibreCrawl](https://github.com/PhialsBasement/LibreCrawl)** [![GitHub stars](https://img.shields.io/github/stars/PhialsBasement/LibreCrawl?style=social&color=white)](https://github.com/PhialsBasement/LibreCrawl/stargazers)  
+8. **[PhialsBasement/LibreCrawl](https://github.com/PhialsBasement/LibreCrawl)** [![GitHub_Stars](https://img.shields.io/github/stars/PhialsBasement/LibreCrawl?style=social&color=white)](https://github.com/PhialsBasement/LibreCrawl/stargazers)  
    Free, open-source desktop SEO crawler designed as an alternative to Screaming Frog. Crawls websites, extracts on-page SEO tags, analyzes internal linking topologies, and exports structured CSV/JSON audit reports. 💻
 
-9. **[janreges/siteone-crawler](https://github.com/janreges/siteone-crawler)** [![GitHub stars](https://img.shields.io/github/stars/janreges/siteone-crawler?style=social&color=white)](https://github.com/janreges/siteone-crawler/stargazers)  
+9. **[janreges/siteone-crawler](https://github.com/janreges/siteone-crawler)** [![GitHub_Stars](https://img.shields.io/github/stars/janreges/siteone-crawler?style=social&color=white)](https://github.com/janreges/siteone-crawler/stargazers)  
    Multi-threaded cross-platform website crawler written in PHP/CLI. Performs deep technical SEO audits, accessibility checks, security header inspections, and sitemap validations across Linux, macOS, and Windows. 🌐
 
-10. **[StJudeWasHere/seonaut](https://github.com/StJudeWasHere/seonaut)** [![GitHub stars](https://img.shields.io/github/stars/StJudeWasHere/seonaut?style=social&color=white)](https://github.com/StJudeWasHere/seonaut/stargazers)  
+10. **[StJudeWasHere/seonaut](https://github.com/StJudeWasHere/seonaut)** [![GitHub_Stars](https://img.shields.io/github/stars/StJudeWasHere/seonaut?style=social&color=white)](https://github.com/StJudeWasHere/seonaut/stargazers)  
     Self-hosted web-based SEO audit tool built in Go. Crawls target domains, flags technical indexing and on-page issues, inspects canonical tags, and visualizes site architecture in an intuitive dashboard. 🚀
 
-11. **[StanGirard/seo-audits-toolkit](https://github.com/StanGirard/seo-audits-toolkit)** [![GitHub stars](https://img.shields.io/github/stars/StanGirard/seo-audits-toolkit?style=social&color=white)](https://github.com/StanGirard/seo-audits-toolkit/stargazers)  
+11. **[StanGirard/seo-audits-toolkit](https://github.com/StanGirard/seo-audits-toolkit)** [![GitHub_Stars](https://img.shields.io/github/stars/StanGirard/seo-audits-toolkit?style=social&color=white)](https://github.com/StanGirard/seo-audits-toolkit/stargazers)  
     Automated SEO and security auditor integrating Google Lighthouse, security header inspection, XML sitemap extraction, image optimization tests, and LLM-assisted summaries. 🛡️
 
-12. **[alexpospekhov/searchstack-aeo](https://github.com/alexpospekhov/searchstack-aeo)** [![GitHub stars](https://img.shields.io/github/stars/alexpospekhov/searchstack-aeo?style=social&color=white)](https://github.com/alexpospekhov/searchstack-aeo/stargazers)  
+12. **[alexpospekhov/searchstack-aeo](https://github.com/alexpospekhov/searchstack-aeo)** [![GitHub_Stars](https://img.shields.io/github/stars/alexpospekhov/searchstack-aeo?style=social&color=white)](https://github.com/alexpospekhov/searchstack-aeo/stargazers)  
     SEO/AEO/GEO reporting toolkit designed to aggregate Google Search Console data with AI Overview visibility and citations across OpenAI, Perplexity, Anthropic, and xAI chatbots. Supports local LLM evaluation (Ollama, LM Studio). 🤖
 
-13. **[ZensInk/zens-ink-seo-package](https://github.com/ZensInk/zens-ink-seo-package)** [![GitHub stars](https://img.shields.io/github/stars/ZensInk/zens-ink-seo-package?style=social&color=white)](https://github.com/ZensInk/zens-ink-seo-package/stargazers)  
+13. **[ZensInk/zens-ink-seo-package](https://github.com/ZensInk/zens-ink-seo-package)** [![GitHub_Stars](https://img.shields.io/github/stars/ZensInk/zens-ink-seo-package?style=social&color=white)](https://github.com/ZensInk/zens-ink-seo-package/stargazers)  
     Zero-dependency pure Python SEO toolkit for indie makers. Provides 13 CLI commands covering Google Autocomplete keyword discovery, clustering, search volume estimates, and search intent classification; functions as an MCP server for AI agents. ✍️
 
-14. **[serpapi/serptrail](https://github.com/serpapi/serptrail)** [![GitHub stars](https://img.shields.io/github/stars/serpapi/serptrail?style=social&color=white)](https://github.com/serpapi/serptrail/stargazers)  
+14. **[serpapi/serptrail](https://github.com/serpapi/serptrail)** [![GitHub_Stars](https://img.shields.io/github/stars/serpapi/serptrail?style=social&color=white)](https://github.com/serpapi/serptrail/stargazers)  
     Self-hosted SEO and GEO rank tracker (Ruby on Rails + SQLite + Docker). Tracks geo-targeted keyword rankings, stores full SERP snapshots, and tracks AI Overview brand citations. 💎
 
-15. **[IliasSami/scrawly-seo-crawler](https://github.com/IliasSami/scrawly-seo-crawler)** [![GitHub stars](https://img.shields.io/github/stars/IliasSami/scrawly-seo-crawler?style=social&color=white)](https://github.com/IliasSami/scrawly-seo-crawler/stargazers)  
+15. **[IliasSami/scrawly-seo-crawler](https://github.com/IliasSami/scrawly-seo-crawler)** [![GitHub_Stars](https://img.shields.io/github/stars/IliasSami/scrawly-seo-crawler?style=social&color=white)](https://github.com/IliasSami/scrawly-seo-crawler/stargazers)  
     Open-source desktop app running 250+ technical SEO and GEO checks. Features JavaScript rendering, 3D site graphs, GSC/GA4 integrations, AI crawler accessibility audits, and an MCP server for LLM workflows. 🔎
 
-16. **[SEObserver/crawlobserver](https://github.com/SEObserver/crawlobserver)** [![GitHub stars](https://img.shields.io/github/stars/SEObserver/crawlobserver?style=social&color=white)](https://github.com/SEObserver/crawlobserver/stargazers)  
+16. **[SEObserver/crawlobserver](https://github.com/SEObserver/crawlobserver)** [![GitHub_Stars](https://img.shields.io/github/stars/SEObserver/crawlobserver?style=social&color=white)](https://github.com/SEObserver/crawlobserver/stargazers)  
     Industrial-grade open-source SEO crawler built in Go with a columnar database backend. Extracts 45+ SEO signals per page, calculates internal PageRank, traces redirect chains, and handles millions of URLs with millisecond query speeds. 🏎️
 
 ---
 
 ### 📦 Specialized SEO Packages & CLI Utilities
 
-- **[Shopify SEO Expert](https://github.com/ArqamNisar/shopify-seo-expert)** [![GitHub stars](https://img.shields.io/github/stars/ArqamNisar/shopify-seo-expert?style=social&color=white)](https://github.com/ArqamNisar/shopify-seo-expert/stargazers) — Agentic automation system for Shopify stores; conducts 14-point product audits and generates AI-optimized copy synced via the Shopify Admin API. 🤖
-- **[Shopify Schema Generator](https://github.com/jfiengo/ShopifyStructuredData)** [![GitHub stars](https://img.shields.io/github/stars/jfiengo/ShopifyStructuredData?style=social&color=white)](https://github.com/jfiengo/ShopifyStructuredData/stargazers) — Python CLI and web tool generating schema.org JSON-LD structured data (Product, Organization, FAQ, Reviews) for e-commerce stores. 🏷️
-- **[pyseoa](https://github.com/masem-at/pyseoa)** [![GitHub stars](https://img.shields.io/github/stars/masem-at/pyseoa?style=social&color=white)](https://github.com/masem-at/pyseoa/stargazers) — Lightweight, scriptable Python library for batch URL auditing, metadata validation, and PageSpeed evaluation. ⚡
-- **[seo-desk](https://github.com/aryachirag02/Seo-desk)** [![GitHub stars](https://img.shields.io/github/stars/aryachirag02/Seo-desk)](https://github.com/aryachirag02/Seo-desk/stargazers) — Local-first desktop SEO/AEO analytics tool (SQLite) tracking AI crawler permissions, `llms.txt` configurations, and AI model brand mentions. 📊
+- **[Shopify SEO Expert](https://github.com/ArqamNisar/shopify-seo-expert)** [![GitHub_Stars](https://img.shields.io/github/stars/ArqamNisar/shopify-seo-expert?style=social&color=white)](https://github.com/ArqamNisar/shopify-seo-expert/stargazers) — Agentic automation system for Shopify stores; conducts 14-point product audits and generates AI-optimized copy synced via the Shopify Admin API. 🤖
+- **[Shopify Schema Generator](https://github.com/jfiengo/ShopifyStructuredData)** [![GitHub_Stars](https://img.shields.io/github/stars/jfiengo/ShopifyStructuredData?style=social&color=white)](https://github.com/jfiengo/ShopifyStructuredData/stargazers) — Python CLI and web tool generating schema.org JSON-LD structured data (Product, Organization, FAQ, Reviews) for e-commerce stores. 🏷️
+- **[pyseoa](https://github.com/masem-at/pyseoa)** [![GitHub_Stars](https://img.shields.io/github/stars/masem-at/pyseoa?style=social&color=white)](https://github.com/masem-at/pyseoa/stargazers) — Lightweight, scriptable Python library for batch URL auditing, metadata validation, and PageSpeed evaluation. ⚡
+- **[seo-desk](https://github.com/aryachirag02/Seo-desk)** [![GitHub_Stars](https://img.shields.io/github/stars/aryachirag02/Seo-desk)](https://github.com/aryachirag02/Seo-desk/stargazers) — Local-first desktop SEO/AEO analytics tool (SQLite) tracking AI crawler permissions, `llms.txt` configurations, and AI model brand mentions. 📊
 - **[PyPrestaScan](https://github.com/topics/prestashop-seo)** — Specialized PrestaShop audit script with 20+ automated technical checks and SQL fix exports. 🛒
 - **[Brainwerk SEO Suite](https://github.com/topics/wordpress-seo)** — Privacy-focused European WordPress SEO plugin with AI answer engine traffic logging and error auditing. 🇪🇺
 
@@ -164,7 +164,7 @@ Contributions to this ecosystem directory are warmly welcomed! 🙌
 3. Ensure entries include:
    - Tool/repo name and authoritative link.
    - For SaaS: starting tier price, free tier/trial limit, and company size estimate.
-   - For Open-Source: GitHub star badge formatted as `[![GitHub stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/owner/repo/stargazers)`.
+   - For Open-Source: GitHub Stars_Badge formatted as `[![GitHub_Stars](https://img.shields.io/github/stars/{owner}/{repo}?style=social&color=white)](https://github.com/owner/repo/stargazers)`.
 4. Open a **Pull Request** detailing your additions.
 
 ---
